@@ -1,0 +1,23 @@
+Question 1:- Function Declearation and Function Expration kya hai?
+Answer:- Kisi bhi function me "function" keyword and then function ka name like - "myfunction", uske baad "()", and is "()" me kuch 
+"parameter" ho sakta hai: like - "(user)", and then "{}". ye hamra Function Declearation hota hai.
+
+Exmple:- function functionName(parameters) {
+    // function body
+}
+
+
+And jb is function ko hum kisi variable me daal dete hai to, yahi function "Function Expration" bn jata hai.
+
+For Example: const functionName = (parameters) => {
+    // function body
+};
+
+
+Question 2: call(), apply(), bind() ke liye object hona chahiye, ya hm kah sakte hai ki agar hamare pass koi aisa object hai jisme 
+kisi ka userName hai, aur mujhe us userName ki jarurt hai. to hm in methods ka use kr sakte hai.
+
+1. kayi baar hum dekhte hai ki hum apne function ko argument ke roop me ek object de rahe hai. object kisi bhi type ka ho sakta hai.
+2. Object ke pass "this" name ki koi cheej hoti hai.
+3. function me object ko as an argument dene pr, function ke paas me bhi this ka access ho jata hai.
+4. ab hum console.log( `${this.userName}`) krke hum user name get kr sakte hai. 

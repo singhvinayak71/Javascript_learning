@@ -1,0 +1,4 @@
+// Data types:  1. Premitive Datatype   2. None Primitive Datatype
+
+// 1. Primitive datatype:- 1. Number 2. Null 3. String  4. Symbol 5. Boolean 6. Undefined
+// 2. None Primitive Datatype:- Object, Array, functions, Date.

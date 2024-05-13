@@ -1,0 +1,44 @@
+// 0. Definition: Objects in JavaScript are complex data types that allow you to store collections of data and functions together as properties and methods.
+
+// 1. Creating Objects:
+Object Literal: {} syntax.
+Constructor Function: Using new keyword with a function.
+Object.create(): Creating an object with a specified prototype.
+    ex. const myObject = { key: value };
+
+
+// 2. Object properties: Objects consist of key-value pairs, where the key is a string (or symbol) and the value can be any data type, including other objects, arrays, functions, etc.
+
+// Accessing object properties: You can access object properties using dot notation or bracket notation:
+const value = myObject.key;
+const value = myObject['key'];
+
+// Adding and modifying properties: Properties can be added or modified at any time:
+myObject.newKey = newValue
+myObject['newKey'] = newValue
+
+// Removing properties: you can remove the properties using the delete opration.
+delete myObject.key;
+
+
+
+// 3. Object Method:- Objects can contain methods, which are functions stored as object properties.
+
+
+// 4. Iterating object: You can loop through object properties using for...in loop:
+
+for(let key in myObject){
+    cgl(key, myObject[key])
+}
+
+// 5. Object Prototypes:JavaScript is a prototype-based language. Every object has a prototype, and properties and methods can be inherited from its prototype.
+
+// 6. Object Serialization: Objects can be serialized into JSON format using JSON.stringify() and deserialized using JSON.parse().
+JSON (JavaScript Object Notation): JavaScript objects can be converted to JSON format using JSON.stringify() and vice versa using JSON.parse().
+
+
+// 7. built-in object: JavaScript has several built-in objects like Array, Date, Math, RegExp, etc., which provide functionalities for specific purposes.
+
+
+
+// 8. object oriented programming:JavaScript supports object-oriented programming paradigms, where objects can be used to model real-world entities and encapsulate related data and behaviors.

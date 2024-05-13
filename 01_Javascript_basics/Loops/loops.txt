@@ -1,0 +1,41 @@
+// Loops in JavaScript
+
+1. for Loop
+2. while Loop
+3. do-while Loop
+4. for-in Loop
+5. for-of Loop
+
+
+// 1. for loop:-
+
+ for (initialization; condition; afterthought){
+  statement
+ }
+
+// 2. while loop:-
+
+while (condition){
+  statement
+}
+
+// 3. do-while loop:-
+
+do{
+  statement
+}
+while (condition);
+
+
+// 4. for-in loop:-
+
+for (variable in object){
+  statement
+}
+
+// 5. for-of loop:- 
+
+for (variable of object){
+  statement
+}
+
